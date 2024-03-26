@@ -10,6 +10,7 @@ setup.py
 ../../build/py_pkg_example/py_pkg_example.egg-info/zip-safe
 py_pkg_example/__init__.py
 py_pkg_example/py_node_example.py
+py_pkg_example/py_oop_node.py
 resource/py_pkg_example
 test/test_copyright.py
 test/test_flake8.py
