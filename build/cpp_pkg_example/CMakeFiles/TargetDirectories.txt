@@ -1,0 +1,9 @@
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/uninstall.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/cpp_pkg_example_uninstall.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/test.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/edit_cache.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/rebuild_cache.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/list_install_components.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/install.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/install/local.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/install/strip.dir
