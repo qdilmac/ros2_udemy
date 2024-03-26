@@ -14,12 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='dilmac',
-    maintainer_email='shadeofficial7@outlook.com',
+    maintainer_email='dilmacc@todo.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "py_node = py_pkg_example.py_node_example:main" # {name} = {pkg folder name}.{node file name}:{function that we want to call in node file}
         ],
     },
 )
