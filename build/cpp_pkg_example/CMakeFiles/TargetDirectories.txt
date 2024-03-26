@@ -1,5 +1,7 @@
 /home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/uninstall.dir
 /home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/cpp_pkg_example_uninstall.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/cpp_node.dir
+/home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/cpp_node_oop.dir
 /home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/test.dir
 /home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/edit_cache.dir
 /home/dilmac/udemy_ws/build/cpp_pkg_example/CMakeFiles/rebuild_cache.dir

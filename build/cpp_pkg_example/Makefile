@@ -197,6 +197,80 @@ cpp_pkg_example_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_pkg_example_uninstall.dir/build.make CMakeFiles/cpp_pkg_example_uninstall.dir/build
 .PHONY : cpp_pkg_example_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named cpp_node
+
+# Build rule for target.
+cpp_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_node
+.PHONY : cpp_node
+
+# fast build rule for target.
+cpp_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
+.PHONY : cpp_node/fast
+
+#=============================================================================
+# Target rules for targets named cpp_node_oop
+
+# Build rule for target.
+cpp_node_oop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_node_oop
+.PHONY : cpp_node_oop
+
+# fast build rule for target.
+cpp_node_oop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node_oop.dir/build.make CMakeFiles/cpp_node_oop.dir/build
+.PHONY : cpp_node_oop/fast
+
+src/cpp_node_example.o: src/cpp_node_example.cpp.o
+.PHONY : src/cpp_node_example.o
+
+# target to build an object file
+src/cpp_node_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/cpp_node_example.cpp.o
+.PHONY : src/cpp_node_example.cpp.o
+
+src/cpp_node_example.i: src/cpp_node_example.cpp.i
+.PHONY : src/cpp_node_example.i
+
+# target to preprocess a source file
+src/cpp_node_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/cpp_node_example.cpp.i
+.PHONY : src/cpp_node_example.cpp.i
+
+src/cpp_node_example.s: src/cpp_node_example.cpp.s
+.PHONY : src/cpp_node_example.s
+
+# target to generate assembly for a file
+src/cpp_node_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/cpp_node_example.cpp.s
+.PHONY : src/cpp_node_example.cpp.s
+
+src/cpp_node_oop.o: src/cpp_node_oop.cpp.o
+.PHONY : src/cpp_node_oop.o
+
+# target to build an object file
+src/cpp_node_oop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node_oop.dir/build.make CMakeFiles/cpp_node_oop.dir/src/cpp_node_oop.cpp.o
+.PHONY : src/cpp_node_oop.cpp.o
+
+src/cpp_node_oop.i: src/cpp_node_oop.cpp.i
+.PHONY : src/cpp_node_oop.i
+
+# target to preprocess a source file
+src/cpp_node_oop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node_oop.dir/build.make CMakeFiles/cpp_node_oop.dir/src/cpp_node_oop.cpp.i
+.PHONY : src/cpp_node_oop.cpp.i
+
+src/cpp_node_oop.s: src/cpp_node_oop.cpp.s
+.PHONY : src/cpp_node_oop.s
+
+# target to generate assembly for a file
+src/cpp_node_oop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node_oop.dir/build.make CMakeFiles/cpp_node_oop.dir/src/cpp_node_oop.cpp.s
+.PHONY : src/cpp_node_oop.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... cpp_pkg_example_uninstall"
 	@echo "... uninstall"
+	@echo "... cpp_node"
+	@echo "... cpp_node_oop"
+	@echo "... src/cpp_node_example.o"
+	@echo "... src/cpp_node_example.i"
+	@echo "... src/cpp_node_example.s"
+	@echo "... src/cpp_node_oop.o"
+	@echo "... src/cpp_node_oop.i"
+	@echo "... src/cpp_node_oop.s"
 .PHONY : help
 
 

@@ -21,4 +21,16 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(cpp_node src/cpp_node_example.cpp) # for a node we need to define executable and install as shown
+ament_target_dependencies(cpp_node rclcpp) # cpp_node is different from the node name that we declared in our .cpp file
+
+add_executable(cpp_node_oop src/cpp_node_oop.cpp) 
+ament_target_dependencies(cpp_node_oop rclcpp)
+
+install(TARGETS
+  cpp_node # the name that we gave to our executable
+  cpp_node_oop
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()
