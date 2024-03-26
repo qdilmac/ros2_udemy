@@ -1,3 +1,4 @@
 [console_scripts]
 py_node = py_pkg_example.py_node_example:main
+py_oop_node = py_pkg_example.py_oop_node:main
 
