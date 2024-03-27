@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dilmac/udemy_ws/build/cpp_pkg_example/cpp_node" "/home/dilmac/udemy_ws/build/cpp_pkg_example/cpp_node_oop" "TARGETS" "cpp_node" "cpp_node_oop" "DESTINATION" "lib/cpp_pkg_example")

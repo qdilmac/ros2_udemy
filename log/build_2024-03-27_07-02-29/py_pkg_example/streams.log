@@ -1,0 +1,48 @@
+[0.407s] Invoking command in '/home/dilmac/udemy_ws/src/py_pkg_example': PYTHONPATH=/home/dilmac/udemy_ws/build/py_pkg_example/prefix_override:/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg_example build --build-base /home/dilmac/udemy_ws/build/py_pkg_example/build install --record /home/dilmac/udemy_ws/build/py_pkg_example/install.log --single-version-externally-managed install_data
+[0.555s] running egg_info
+[0.555s] creating ../../build/py_pkg_example/py_pkg_example.egg-info
+[0.555s] writing ../../build/py_pkg_example/py_pkg_example.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/py_pkg_example/py_pkg_example.egg-info/dependency_links.txt
+[0.555s] writing entry points to ../../build/py_pkg_example/py_pkg_example.egg-info/entry_points.txt
+[0.555s] writing requirements to ../../build/py_pkg_example/py_pkg_example.egg-info/requires.txt
+[0.555s] writing top-level names to ../../build/py_pkg_example/py_pkg_example.egg-info/top_level.txt
+[0.556s] writing manifest file '../../build/py_pkg_example/py_pkg_example.egg-info/SOURCES.txt'
+[0.557s] reading manifest file '../../build/py_pkg_example/py_pkg_example.egg-info/SOURCES.txt'
+[0.557s] writing manifest file '../../build/py_pkg_example/py_pkg_example.egg-info/SOURCES.txt'
+[0.557s] running build
+[0.557s] running build_py
+[0.557s] creating /home/dilmac/udemy_ws/build/py_pkg_example/build
+[0.557s] creating /home/dilmac/udemy_ws/build/py_pkg_example/build/lib
+[0.557s] creating /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example
+[0.557s] copying py_pkg_example/news_station.py -> /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example
+[0.557s] copying py_pkg_example/py_oop_node.py -> /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example
+[0.557s] copying py_pkg_example/py_node_template.py -> /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example
+[0.557s] copying py_pkg_example/__init__.py -> /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example
+[0.558s] copying py_pkg_example/py_node_example.py -> /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example
+[0.558s] running install
+[0.558s] running install_lib
+[0.558s] creating /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example
+[0.558s] copying /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example/news_station.py -> /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example
+[0.558s] copying /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example/py_oop_node.py -> /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example
+[0.558s] copying /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example/py_node_template.py -> /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example
+[0.558s] copying /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example/__init__.py -> /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example
+[0.558s] copying /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example/py_node_example.py -> /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example
+[0.559s] byte-compiling /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/news_station.py to news_station.cpython-310.pyc
+[0.559s] byte-compiling /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/py_oop_node.py to py_oop_node.cpython-310.pyc
+[0.559s] byte-compiling /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/py_node_template.py to py_node_template.cpython-310.pyc
+[0.559s] byte-compiling /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/__init__.py to __init__.cpython-310.pyc
+[0.559s] byte-compiling /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/py_node_example.py to py_node_example.cpython-310.pyc
+[0.559s] running install_data
+[0.559s] creating /home/dilmac/udemy_ws/install/py_pkg_example/share/ament_index
+[0.560s] creating /home/dilmac/udemy_ws/install/py_pkg_example/share/ament_index/resource_index
+[0.560s] creating /home/dilmac/udemy_ws/install/py_pkg_example/share/ament_index/resource_index/packages
+[0.560s] copying resource/py_pkg_example -> /home/dilmac/udemy_ws/install/py_pkg_example/share/ament_index/resource_index/packages
+[0.560s] copying package.xml -> /home/dilmac/udemy_ws/install/py_pkg_example/share/py_pkg_example
+[0.560s] running install_egg_info
+[0.561s] Copying ../../build/py_pkg_example/py_pkg_example.egg-info to /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example-0.0.0-py3.10.egg-info
+[0.561s] running install_scripts
+[0.574s] Installing py_node script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.574s] Installing py_oop_node script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.574s] Installing robot_news_station script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.575s] writing list of installed files to '/home/dilmac/udemy_ws/build/py_pkg_example/install.log'
+[0.591s] Invoked command in '/home/dilmac/udemy_ws/src/py_pkg_example' returned '0': PYTHONPATH=/home/dilmac/udemy_ws/build/py_pkg_example/prefix_override:/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg_example build --build-base /home/dilmac/udemy_ws/build/py_pkg_example/build install --record /home/dilmac/udemy_ws/build/py_pkg_example/install.log --single-version-externally-managed install_data

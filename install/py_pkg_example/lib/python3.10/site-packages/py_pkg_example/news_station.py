@@ -15,7 +15,7 @@ class NewsStationNode(Node):
     
     def publish_news(self):
         msg = String()
-        msg.data = f"Hi my name is {self.robot_name} I am a topic that publishes this unneccessarily long message. No news here. You have been bamboozled."
+        msg.data = f"Hi my name is {self.robot_name}. I am a topic that publishes this unneccessarily long message. No news here. You have been bamboozled."
         self.publisher_.publish(msg)
      
 def main(args=None):
