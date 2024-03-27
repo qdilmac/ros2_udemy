@@ -1,0 +1,21 @@
+[ 75%] Built target cpp_node
+[100%] Built target cpp_node_oop
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/lib/cpp_pkg_example/cpp_node
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/lib/cpp_pkg_example/cpp_node_oop
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/ament_index/resource_index/package_run_dependencies/cpp_pkg_example
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/ament_index/resource_index/parent_prefix_path/cpp_pkg_example
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/environment/path.sh
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/environment/path.dsv
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/local_setup.bash
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/local_setup.sh
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/local_setup.zsh
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/local_setup.dsv
+-- Symlinking: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/package.dsv
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/ament_index/resource_index/packages/cpp_pkg_example
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/cmake/cpp_pkg_exampleConfig.cmake
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/cmake/cpp_pkg_exampleConfig-version.cmake
+-- Up-to-date symlink: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/package.xml
