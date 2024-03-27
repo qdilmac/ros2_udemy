@@ -13,7 +13,12 @@ py_pkg_example/news_station.py
 py_pkg_example/py_node_example.py
 py_pkg_example/py_node_template.py
 py_pkg_example/py_oop_node.py
+py_pkg_example/smartphone.py
+py_pkg_example.egg-info/PKG-INFO
+py_pkg_example.egg-info/SOURCES.txt
+py_pkg_example.egg-info/dependency_links.txt
+py_pkg_example.egg-info/entry_points.txt
+py_pkg_example.egg-info/requires.txt
+py_pkg_example.egg-info/top_level.txt
+py_pkg_example.egg-info/zip-safe
 resource/py_pkg_example
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
