@@ -8,6 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -27,9 +28,17 @@ ament_target_dependencies(cpp_node rclcpp) # cpp_node is different from the node
 add_executable(cpp_node_oop src/cpp_node_oop.cpp) 
 ament_target_dependencies(cpp_node_oop rclcpp)
 
+add_executable(robot_news_station src/robot_news_station.cpp) 
+ament_target_dependencies(robot_news_station rclcpp example_interfaces) #dont forget example_interfaces!
+
+add_executable(smartphone src/smartphone.cpp) 
+ament_target_dependencies(smartphone rclcpp example_interfaces)
+
 install(TARGETS
   cpp_node # the name that we gave to our executable
   cpp_node_oop
+  robot_news_station
+  smartphone
   DESTINATION lib/${PROJECT_NAME}
 )
 

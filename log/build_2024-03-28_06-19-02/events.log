@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (-) JobUnselected: {'identifier': 'py_pkg_example'}
+[0.000379] (cpp_pkg_example) JobQueued: {'identifier': 'cpp_pkg_example', 'dependencies': OrderedDict()}
+[0.000493] (cpp_pkg_example) JobStarted: {'identifier': 'cpp_pkg_example'}
+[0.006095] (cpp_pkg_example) JobProgress: {'identifier': 'cpp_pkg_example', 'progress': 'cmake'}
+[0.006321] (cpp_pkg_example) JobProgress: {'identifier': 'cpp_pkg_example', 'progress': 'build'}
+[0.006749] (cpp_pkg_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dilmac/udemy_ws/build/cpp_pkg_example', '--', '-j12', '-l12'], 'cwd': '/home/dilmac/udemy_ws/build/cpp_pkg_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'dilmac'), ('LC_TIME', 'tr_TR.UTF-8'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dilmac'), ('OLDPWD', '/home/dilmac'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1560'), ('SYSTEMD_EXEC_PID', '2282'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5147'), ('COLCON_PREFIX_PATH', '/home/dilmac/udemy_ws/install:/home/dilmac/nahra_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dilmac'), ('JOURNAL_STREAM', '8:34286'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dilmac'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dev:@/tmp/.ICE-unix/2002,unix/dev:/tmp/.ICE-unix/2002'), ('INVOCATION_ID', '3b3c30646788456299f7aaaa06120c08'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dilmac/udemy_ws/install/py_pkg_example:/home/dilmac/udemy_ws/install/cpp_pkg_example:/home/dilmac/nahra_ws/install/project_nahra:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2e14ae52-3301-4958-90c4-6af747c0c2f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dilmac/udemy_ws/build/cpp_pkg_example'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '6603246111052536'), ('PYTHONPATH', '/home/dilmac/udemy_ws/build/py_pkg_example:/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dilmac/udemy_ws/install/cpp_pkg_example:/home/dilmac/nahra_ws/install/project_nahra:/home/dilmac/udemy_ws/install/py_pkg_example:/opt/ros/humble')]), 'shell': False}
+[0.023594] (cpp_pkg_example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099934] (-) TimerEvent: {}
+[0.105752] (cpp_pkg_example) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.124360] (cpp_pkg_example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.126033] (cpp_pkg_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.129891] (cpp_pkg_example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.137223] (cpp_pkg_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.146757] (cpp_pkg_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.182491] (cpp_pkg_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.183359] (cpp_pkg_example) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200021] (-) TimerEvent: {}
+[0.260313] (cpp_pkg_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300133] (-) TimerEvent: {}
+[0.359890] (cpp_pkg_example) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.400227] (-) TimerEvent: {}
+[0.448153] (cpp_pkg_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500319] (cpp_pkg_example) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.500540] (-) TimerEvent: {}
+[0.500628] (cpp_pkg_example) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.500698] (cpp_pkg_example) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.500936] (cpp_pkg_example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.501443] (cpp_pkg_example) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.501556] (cpp_pkg_example) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.501630] (cpp_pkg_example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.502286] (cpp_pkg_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.514522] (cpp_pkg_example) StdoutLine: {'line': b'-- Generating done\n'}
+[0.515882] (cpp_pkg_example) StdoutLine: {'line': b'-- Build files have been written to: /home/dilmac/udemy_ws/build/cpp_pkg_example\n'}
+[0.536389] (cpp_pkg_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.536653] (cpp_pkg_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node_oop\x1b[0m\n'}
+[0.536720] (cpp_pkg_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[0.543324] (cpp_pkg_example) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.548793] (cpp_pkg_example) StdoutLine: {'line': b'[ 75%] Built target cpp_node\n'}
+[0.548945] (cpp_pkg_example) StdoutLine: {'line': b'[ 75%] Built target robot_news_station\n'}
+[0.548992] (cpp_pkg_example) StdoutLine: {'line': b'[ 87%] Built target cpp_node_oop\n'}
+[0.600644] (-) TimerEvent: {}
+[0.700899] (-) TimerEvent: {}
+[0.801153] (-) TimerEvent: {}
+[0.901387] (-) TimerEvent: {}
+[1.001656] (-) TimerEvent: {}
+[1.101949] (-) TimerEvent: {}
+[1.202201] (-) TimerEvent: {}
+[1.302497] (-) TimerEvent: {}
+[1.402760] (-) TimerEvent: {}
+[1.503105] (-) TimerEvent: {}
+[1.603435] (-) TimerEvent: {}
+[1.703749] (-) TimerEvent: {}
+[1.804012] (-) TimerEvent: {}
+[1.904267] (-) TimerEvent: {}
+[2.004590] (-) TimerEvent: {}
+[2.104838] (-) TimerEvent: {}
+[2.205075] (-) TimerEvent: {}
+[2.305335] (-) TimerEvent: {}
+[2.405611] (-) TimerEvent: {}
+[2.505882] (-) TimerEvent: {}
+[2.606137] (-) TimerEvent: {}
+[2.706450] (-) TimerEvent: {}
+[2.806713] (-) TimerEvent: {}
+[2.906992] (-) TimerEvent: {}
+[3.007269] (-) TimerEvent: {}
+[3.107606] (-) TimerEvent: {}
+[3.207951] (-) TimerEvent: {}
+[3.308251] (-) TimerEvent: {}
+[3.408543] (-) TimerEvent: {}
+[3.508904] (-) TimerEvent: {}
+[3.609264] (-) TimerEvent: {}
+[3.709529] (-) TimerEvent: {}
+[3.809785] (-) TimerEvent: {}
+[3.910049] (-) TimerEvent: {}
+[4.010304] (-) TimerEvent: {}
+[4.110572] (-) TimerEvent: {}
+[4.210821] (-) TimerEvent: {}
+[4.311077] (-) TimerEvent: {}
+[4.411323] (-) TimerEvent: {}
+[4.511556] (-) TimerEvent: {}
+[4.611806] (-) TimerEvent: {}
+[4.712078] (-) TimerEvent: {}
+[4.812324] (-) TimerEvent: {}
+[4.912589] (-) TimerEvent: {}
+[5.012835] (-) TimerEvent: {}
+[5.113080] (-) TimerEvent: {}
+[5.213313] (-) TimerEvent: {}
+[5.313560] (-) TimerEvent: {}
+[5.413810] (-) TimerEvent: {}
+[5.514079] (-) TimerEvent: {}
+[5.614346] (-) TimerEvent: {}
+[5.714588] (-) TimerEvent: {}
+[5.814830] (-) TimerEvent: {}
+[5.915073] (-) TimerEvent: {}
+[6.015316] (-) TimerEvent: {}
+[6.115589] (-) TimerEvent: {}
+[6.201887] (cpp_pkg_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[6.215757] (-) TimerEvent: {}
+[6.316042] (-) TimerEvent: {}
+[6.416317] (-) TimerEvent: {}
+[6.459814] (cpp_pkg_example) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[6.470407] (cpp_pkg_example) CommandEnded: {'returncode': 0}
+[6.492105] (cpp_pkg_example) JobProgress: {'identifier': 'cpp_pkg_example', 'progress': 'install'}
+[6.498015] (cpp_pkg_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dilmac/udemy_ws/build/cpp_pkg_example'], 'cwd': '/home/dilmac/udemy_ws/build/cpp_pkg_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'dilmac'), ('LC_TIME', 'tr_TR.UTF-8'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dilmac'), ('OLDPWD', '/home/dilmac'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1560'), ('SYSTEMD_EXEC_PID', '2282'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5147'), ('COLCON_PREFIX_PATH', '/home/dilmac/udemy_ws/install:/home/dilmac/nahra_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dilmac'), ('JOURNAL_STREAM', '8:34286'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dilmac'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dev:@/tmp/.ICE-unix/2002,unix/dev:/tmp/.ICE-unix/2002'), ('INVOCATION_ID', '3b3c30646788456299f7aaaa06120c08'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dilmac/udemy_ws/install/py_pkg_example:/home/dilmac/udemy_ws/install/cpp_pkg_example:/home/dilmac/nahra_ws/install/project_nahra:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2e14ae52-3301-4958-90c4-6af747c0c2f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dilmac/udemy_ws/build/cpp_pkg_example'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '6603246111052536'), ('PYTHONPATH', '/home/dilmac/udemy_ws/build/py_pkg_example:/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dilmac/udemy_ws/install/cpp_pkg_example:/home/dilmac/nahra_ws/install/project_nahra:/home/dilmac/udemy_ws/install/py_pkg_example:/opt/ros/humble')]), 'shell': False}
+[6.503431] (cpp_pkg_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.503555] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/lib/cpp_pkg_example/cpp_node\n'}
+[6.503645] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/lib/cpp_pkg_example/cpp_node_oop\n'}
+[6.503792] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/lib/cpp_pkg_example/robot_news_station\n'}
+[6.503885] (cpp_pkg_example) StdoutLine: {'line': b'-- Installing: /home/dilmac/udemy_ws/install/cpp_pkg_example/lib/cpp_pkg_example/smartphone\n'}
+[6.506661] (cpp_pkg_example) StdoutLine: {'line': b'-- Set runtime path of "/home/dilmac/udemy_ws/install/cpp_pkg_example/lib/cpp_pkg_example/smartphone" to ""\n'}
+[6.506730] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/ament_index/resource_index/package_run_dependencies/cpp_pkg_example\n'}
+[6.506806] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/ament_index/resource_index/parent_prefix_path/cpp_pkg_example\n'}
+[6.506867] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/environment/ament_prefix_path.sh\n'}
+[6.506930] (cpp_pkg_example) StdoutLine: {'line': b'-- Installing: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/environment/ament_prefix_path.dsv\n'}
+[6.506975] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/environment/path.sh\n'}
+[6.507015] (cpp_pkg_example) StdoutLine: {'line': b'-- Installing: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/environment/path.dsv\n'}
+[6.507062] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/local_setup.bash\n'}
+[6.507132] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/local_setup.sh\n'}
+[6.507181] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/local_setup.zsh\n'}
+[6.507245] (cpp_pkg_example) StdoutLine: {'line': b'-- Installing: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/local_setup.dsv\n'}
+[6.507297] (cpp_pkg_example) StdoutLine: {'line': b'-- Installing: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/package.dsv\n'}
+[6.507337] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/ament_index/resource_index/packages/cpp_pkg_example\n'}
+[6.507382] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/cmake/cpp_pkg_exampleConfig.cmake\n'}
+[6.507436] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/cmake/cpp_pkg_exampleConfig-version.cmake\n'}
+[6.507479] (cpp_pkg_example) StdoutLine: {'line': b'-- Up-to-date: /home/dilmac/udemy_ws/install/cpp_pkg_example/share/cpp_pkg_example/package.xml\n'}
+[6.508745] (cpp_pkg_example) CommandEnded: {'returncode': 0}
+[6.516408] (-) TimerEvent: {}
+[6.540631] (cpp_pkg_example) JobEnded: {'identifier': 'cpp_pkg_example', 'rc': 0}
+[6.541020] (-) EventReactorShutdown: {}
