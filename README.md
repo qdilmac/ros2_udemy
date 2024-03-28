@@ -11,4 +11,7 @@ Edouard Renard's (Robotics Back-end) Udemy course that I took about ROS2
  - We can also do the same for nodes
     - ros2 run py_pkg_example robot_news_station --ros-args -r __node:=new_node_name
 
+ - Can do these both at the same time too
+    - ros2 run cpp_pkg_example robot_news_station --ros-args -r __node:=new_node_name -r robot_news:=new_topic_name
+
 ![alt text](rosgraph.png) -> an example for node/topic name remapping
