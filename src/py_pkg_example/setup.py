@@ -23,7 +23,9 @@ setup(
             "py_node = py_pkg_example.py_node_example:main", # {name} = {pkg folder name}.{node file name}:{function that we want to call in node file}
             "py_oop_node = py_pkg_example.py_oop_node:main",
             "robot_news_station = py_pkg_example.news_station:main", #there was some problem in running the code, deleting build/ install/ log 
-            "smartphone = py_pkg_example.smartphone:main" #and rebuilding the ws with colcon build solved it {rm -rf build/ install/ log/}
+            "smartphone = py_pkg_example.smartphone:main", #and rebuilding the ws with colcon build solved it {rm -rf build/ install/ log/}
+            "number_publisher = py_pkg_example.number_publisher:main",
+            "number_counter = py_pkg_example.number_counter:main"
         ],
     },
 )

@@ -1,0 +1,26 @@
+[0.536s] Invoking command in '/home/dilmac/udemy_ws/build/py_pkg_example': PYTHONPATH=/home/dilmac/udemy_ws/build/py_pkg_example/prefix_override:/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dilmac/udemy_ws/build/py_pkg_example/build --no-deps symlink_data --force
+[0.716s] running develop
+[0.716s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.716s]   warnings.warn(
+[0.826s] running egg_info
+[0.826s] writing py_pkg_example.egg-info/PKG-INFO
+[0.826s] writing dependency_links to py_pkg_example.egg-info/dependency_links.txt
+[0.826s] writing entry points to py_pkg_example.egg-info/entry_points.txt
+[0.827s] writing requirements to py_pkg_example.egg-info/requires.txt
+[0.827s] writing top-level names to py_pkg_example.egg-info/top_level.txt
+[0.828s] reading manifest file 'py_pkg_example.egg-info/SOURCES.txt'
+[0.829s] writing manifest file 'py_pkg_example.egg-info/SOURCES.txt'
+[0.830s] running build_ext
+[0.830s] Creating /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py-pkg-example.egg-link (link to .)
+[0.831s] Installing number_counter script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.831s] Installing number_publisher script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.831s] Installing py_node script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.831s] Installing py_oop_node script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.831s] Installing robot_news_station script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.831s] Installing smartphone script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.831s] 
+[0.831s] Installed /home/dilmac/udemy_ws/build/py_pkg_example
+[0.832s] running symlink_data
+[0.832s] symbolically linking /home/dilmac/udemy_ws/build/py_pkg_example/resource/py_pkg_example -> /home/dilmac/udemy_ws/install/py_pkg_example/share/ament_index/resource_index/packages
+[0.832s] symbolically linking /home/dilmac/udemy_ws/build/py_pkg_example/package.xml -> /home/dilmac/udemy_ws/install/py_pkg_example/share/py_pkg_example
+[0.862s] Invoked command in '/home/dilmac/udemy_ws/build/py_pkg_example' returned '0': PYTHONPATH=/home/dilmac/udemy_ws/build/py_pkg_example/prefix_override:/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dilmac/udemy_ws/build/py_pkg_example/build --no-deps symlink_data --force
