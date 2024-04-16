@@ -9,7 +9,7 @@ class NumberCounterNode(Node):
     def __init__(self):
         super().__init__("number_counter")
         self.counter_ = 0
-        self.number_count_publisher_ = self.create_publisher(Int64, "number_count", 10)
+        self.number_count_publisher_ = self.create_publisher(Int64, "number_count", 10) #msg type, topic name, queue size
         self.number_subscriber_ = self.create_subscription(Int64, "number", self.callback_number, 10)
         self.get_logger().info("Number Counter has been started.")
 

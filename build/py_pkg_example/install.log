@@ -6,6 +6,7 @@
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/py_node_example.py
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/number_publisher.py
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/smartphone.py
+/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/sum_server.py
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/__pycache__/number_counter.cpython-310.pyc
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/__pycache__/news_station.cpython-310.pyc
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/__pycache__/py_oop_node.cpython-310.pyc
@@ -14,6 +15,7 @@
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/__pycache__/py_node_example.cpython-310.pyc
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/__pycache__/number_publisher.cpython-310.pyc
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/__pycache__/smartphone.cpython-310.pyc
+/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/__pycache__/sum_server.cpython-310.pyc
 /home/dilmac/udemy_ws/install/py_pkg_example/share/ament_index/resource_index/packages/py_pkg_example
 /home/dilmac/udemy_ws/install/py_pkg_example/share/py_pkg_example/package.xml
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example-0.0.0-py3.10.egg-info/requires.txt
@@ -29,3 +31,4 @@
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example/py_oop_node
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example/robot_news_station
 /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example/smartphone
+/home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example/sum_server

@@ -16,6 +16,7 @@ py_pkg_example/py_node_example.py
 py_pkg_example/py_node_template.py
 py_pkg_example/py_oop_node.py
 py_pkg_example/smartphone.py
+py_pkg_example/sum_server.py
 resource/py_pkg_example
 test/test_copyright.py
 test/test_flake8.py

@@ -8,7 +8,7 @@ class NumberPublisherNode(Node):
     def __init__(self):
         super().__init__("number_publisher")
         self.number = 7
-        self.number_publisher = self.create_publisher(Int64, "number", 10)
+        self.number_publisher = self.create_publisher(Int64, "number", 10) #msg type, topic name, queue size
         self.number_timer = self.create_timer(1.0, self.publish_number)
         self.get_logger().info("Number publisher is up and running")
 

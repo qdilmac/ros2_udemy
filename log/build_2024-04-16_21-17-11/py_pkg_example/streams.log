@@ -1,0 +1,30 @@
+[0.487s] Invoking command in '/home/dilmac/udemy_ws/src/py_pkg_example': PYTHONPATH=/home/dilmac/udemy_ws/build/py_pkg_example/prefix_override:/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg_example build --build-base /home/dilmac/udemy_ws/build/py_pkg_example/build install --record /home/dilmac/udemy_ws/build/py_pkg_example/install.log --single-version-externally-managed install_data
+[0.648s] running egg_info
+[0.648s] writing ../../build/py_pkg_example/py_pkg_example.egg-info/PKG-INFO
+[0.648s] writing dependency_links to ../../build/py_pkg_example/py_pkg_example.egg-info/dependency_links.txt
+[0.648s] writing entry points to ../../build/py_pkg_example/py_pkg_example.egg-info/entry_points.txt
+[0.648s] writing requirements to ../../build/py_pkg_example/py_pkg_example.egg-info/requires.txt
+[0.648s] writing top-level names to ../../build/py_pkg_example/py_pkg_example.egg-info/top_level.txt
+[0.650s] reading manifest file '../../build/py_pkg_example/py_pkg_example.egg-info/SOURCES.txt'
+[0.650s] writing manifest file '../../build/py_pkg_example/py_pkg_example.egg-info/SOURCES.txt'
+[0.650s] running build
+[0.650s] running build_py
+[0.651s] copying py_pkg_example/sum_server.py -> /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example
+[0.651s] running install
+[0.651s] running install_lib
+[0.651s] copying /home/dilmac/udemy_ws/build/py_pkg_example/build/lib/py_pkg_example/sum_server.py -> /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example
+[0.652s] byte-compiling /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example/sum_server.py to sum_server.cpython-310.pyc
+[0.652s] running install_data
+[0.652s] running install_egg_info
+[0.653s] removing '/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example-0.0.0-py3.10.egg-info' (and everything under it)
+[0.654s] Copying ../../build/py_pkg_example/py_pkg_example.egg-info to /home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages/py_pkg_example-0.0.0-py3.10.egg-info
+[0.654s] running install_scripts
+[0.668s] Installing number_counter script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.668s] Installing number_publisher script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.668s] Installing py_node script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.668s] Installing py_oop_node script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.668s] Installing robot_news_station script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.668s] Installing smartphone script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.669s] Installing sum_server script to /home/dilmac/udemy_ws/install/py_pkg_example/lib/py_pkg_example
+[0.669s] writing list of installed files to '/home/dilmac/udemy_ws/build/py_pkg_example/install.log'
+[0.686s] Invoked command in '/home/dilmac/udemy_ws/src/py_pkg_example' returned '0': PYTHONPATH=/home/dilmac/udemy_ws/build/py_pkg_example/prefix_override:/home/dilmac/udemy_ws/install/py_pkg_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg_example build --build-base /home/dilmac/udemy_ws/build/py_pkg_example/build install --record /home/dilmac/udemy_ws/build/py_pkg_example/install.log --single-version-externally-managed install_data
