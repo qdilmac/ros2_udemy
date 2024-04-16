@@ -13,7 +13,7 @@ class SumIntsNode(Node):
 
     def callback_sum_service(self, request, response):
         response.sum = request.a + request.b # AddTwoInts service requests 2 Int64 values and response is sum of those 2 Int64 values
-                                            # int64a    int64 b ----   int64 sum
+                                            # int64a    int64 b ----   int64 sum 
         self.get_logger().info(str(request.a) + " + " + str(request.b) + " is equal to: " + str(response.sum))
         return response
      

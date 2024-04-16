@@ -26,7 +26,7 @@ setup(
             "smartphone = py_pkg_example.smartphone:main", #and rebuilding the ws with colcon build solved it {rm -rf build/ install/ log/}
             "number_publisher = py_pkg_example.number_publisher:main",
             "number_counter = py_pkg_example.number_counter:main",
-            "sum_server = py_pkg_example.sum_server:main"
+            "sum_server = py_pkg_example.sum_server:main" #same thing for services too
         ],
     },
 )
